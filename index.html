@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width = device-width" />
+    <title>wrecklass</title>
+    <style type="text/css">
+      html { background-color: #fdf6e3; color: #657b83; }
+      body { font-family: sans-serif; font-size: 1.0em; max-width: 480px; margin: auto; }
+      div { margin: 7px; }
+      img { width: 100%; border-radius: 5px; }
+      ul { margin: 0; margin-top: 10px; padding: 0; }
+      li { display: block; float: left; margin: 0px; width: 25%; text-align: center; }
+      a { color: #aaaaaa; text-decoration: none; }
+    </style>
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-13264116-5']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+  </head>
+  <body>
+    <div><img src="portrait.jpg" alt="" /></div>
+    <ul>
+      <li><a href="http://twitter.com/wrecklass" title="@wrecklass">Twitter</a></li>
+      <li><a href="https://github.com/wrecklass">GitHub</a></li>
+      <li><a href="http://www.kdyfish.net/blog">Blog</a></li>
+      <li><a id="email" href="mailto:smartin@NOSPAMkdyfish.net" title="smartin@NOSPAMkdyfish.net">Email</a></li>
+    </ul>
+    <script type="text/javascript">
+      var link = document.getElementById('email');
+      link.href = link.href.replace(/NOSPAM/,'');
+      link.title = link.title.replace(/NOSPAM/,'');
+    </script>
+  </body>
+</html>
